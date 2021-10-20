@@ -61,6 +61,5 @@
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^10.0.0"
-  },
-  "private": true
+  }
 }

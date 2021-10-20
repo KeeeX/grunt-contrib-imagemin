@@ -15,7 +15,7 @@
     }
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=12"
   },
   "scripts": {
     "ava": "ava",
@@ -38,27 +38,28 @@
     "svg"
   ],
   "dependencies": {
-    "chalk": "^2.4.1",
-    "imagemin": "^6.0.0",
-    "p-map": "^1.2.0",
-    "plur": "^3.0.1",
+    "chalk": "^4.1.2",
+    "imagemin": "^8.0.1",
+    "p-map": "^5.1.0",
+    "plur": "^4.0.0",
     "pretty-bytes": "^5.1.0"
   },
   "xo": {
     "rules": {
-      "promise/prefer-await-to-then": false
+      "promise/prefer-await-to-then": 0,
+      "unicorn/prefer-module": 0
     }
   },
   "devDependencies": {
-    "ava": "^1.4.1",
-    "del-cli": "^1.1.0",
+    "ava": "^3.15.0",
+    "del-cli": "^4.0.1",
     "grunt": "^1.1.0",
-    "xo": "^0.23.0"
+    "xo": "^0.45.0"
   },
   "optionalDependencies": {
-    "imagemin-gifsicle": "^6.0.1",
-    "imagemin-jpegtran": "^6.0.0",
-    "imagemin-optipng": "^6.0.0",
-    "imagemin-svgo": "^7.0.0"
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.0"
   }
 }

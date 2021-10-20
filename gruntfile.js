@@ -6,15 +6,15 @@ module.exports = grunt => {
 					expand: true,
 					cwd: 'test/fixtures',
 					src: '**/*.{gif,GIF,jpg,JPG,png,PNG}',
-					dest: 'tmp'
-				}]
+					dest: 'tmp',
+				}],
 			},
 			rename: {
 				files: {
-					'tmp/rename.jpg': 'test/fixtures/test.jpg'
-				}
-			}
-		}
+					'tmp/rename.jpg': 'test/fixtures/test.jpg',
+				},
+			},
+		},
 	});
 
 	grunt.loadTasks('tasks');

@@ -1,12 +1,17 @@
-# grunt-contrib-imagemin [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-imagemin.svg?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-imagemin) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/7w491e6edsuanreu/branch/master?svg=true)](https://ci.appveyor.com/project/gruntjs/grunt-contrib-imagemin/branch/master)
-
 > Minify images using [imagemin](https://github.com/imagemin/imagemin)
 
+
+## Information about this fork
+
+This fork keeps dependencies up-to-date in an attempt to reduce maintenance cost down the line.
+A non-renamed package is available in the `fix-upstream` branch.
+
+Aside from renaming the package and updating the code so that the tests keep running, no other modifications are done here.
 
 ## Install
 
 ```sh
-npm install --save-dev grunt-contrib-imagemin
+npm install --save-dev @keeex/grunt-contrib-imagemin
 ```
 
 
@@ -40,7 +45,7 @@ grunt.initConfig({
     }
 });
 
-grunt.loadNpmTasks('grunt-contrib-imagemin');
+grunt.loadNpmTasks('@keeex/grunt-contrib-imagemin');
 grunt.registerTask('default', ['imagemin']);
 ```
 
@@ -110,3 +115,4 @@ Control the maximum number of image optimizations that may be performed in paral
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [KeeeX SAS](https://keeex.me)

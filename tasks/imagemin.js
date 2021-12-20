@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const plur = require('plur');
 const prettyBytes = require('pretty-bytes');
 
-const defaultPlugins = ['gifsicle', 'jpegtran', 'optipng', 'svgo/index.js'];
+const defaultPlugins = ['gifsicle', 'jpegtran', 'optipng', 'svgo'];
 
 const loadPlugin = async (grunt, plugin, options) => {
 	try {

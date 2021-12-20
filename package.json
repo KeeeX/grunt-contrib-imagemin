@@ -1,6 +1,6 @@
 {
   "name": "@keeex/grunt-contrib-imagemin",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Minify images",
   "license": "MIT",
   "repository": "gruntjs/grunt-contrib-imagemin",
